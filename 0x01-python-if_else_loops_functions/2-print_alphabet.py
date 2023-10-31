@@ -1,6 +1,3 @@
 #!/usr/bin/python3
-output = ""
-
-for char in range(97, 12):
-    output += chr(char)
-print(f"{output}")
+for i in range(97, 123):
+    print("{:c}".format(i), end='')
