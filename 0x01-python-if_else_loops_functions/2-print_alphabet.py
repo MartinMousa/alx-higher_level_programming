@@ -1,4 +1,6 @@
 #!/usr/bin/python3
-for char in range(97, 123):
-    print(chr(char), end='')
-print()
+output = ""
+
+for char in range(97, 12):
+    output += chr(char)
+print(f"{output}")
